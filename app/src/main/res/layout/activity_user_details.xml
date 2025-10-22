@@ -1,0 +1,20 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/inputFullName" android:hint="Full Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputDob" android:hint="Date of Birth" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputEmail" android:hint="Email" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputPhone" android:hint="Phone Number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputAddress" android:hint="Address" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputHeight" android:hint="Height (cm)" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputWeight" android:hint="Weight (kg)" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputBloodGroup" android:hint="Blood Group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputConditions" android:hint="Existing Conditions (comma-separated)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputPastSurgeries" android:hint="Past Surgeries" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputMedications" android:hint="Current Medications" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputAllergies" android:hint="Allergies (comma-separated)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputFamilyHistory" android:hint="Family Medical History" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/cbSmoker" android:text="Smoker" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/cbDrinker" android:text="Drinker" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnSubmitUser" android:text="Submit" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

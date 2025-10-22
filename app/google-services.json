@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825095462257",
+    "project_id": "virtualdoctor-1cc43",
+    "storage_bucket": "virtualdoctor-1cc43.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825095462257:android:f12dcce3e2fdb0bf8baad0",
+        "android_client_info": {
+          "package_name": "com.example.virtualdoctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz22xvhnXymMZwXL13lZN-2MKxz5ATHmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

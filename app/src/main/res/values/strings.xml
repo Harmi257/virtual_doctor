@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="severity_array">
+        <item>Mild</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+
+    <string-array name="mode_array">
+        <item>Online</item>
+        <item>In-person</item>
+        <item>Only Prescription</item>
+    </string-array>
+
+
+    <!-- Roles for Registration/Login -->
+    <string-array name="roles">
+        <item>Doctor</item>
+        <item>User</item>
+    </string-array>
+</resources>

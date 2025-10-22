@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFF">
+    <!--  VideoView with fixed height and background to confirm visibility  -->
+    <VideoView android:id="@+id/videoView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="190dp"/>
+    <!--  Spinners for filtering  -->
+    <Spinner android:id="@+id/spinnerSpecialization" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    <Spinner android:id="@+id/spinnerHospital" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <!--  ListView fills remaining space  -->
+    <ListView android:id="@+id/listDoctors" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="16dp" android:background="#FFF"/>
+</LinearLayout>

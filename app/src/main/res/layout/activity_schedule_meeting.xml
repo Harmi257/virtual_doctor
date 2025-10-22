@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- User Email -->
+        <TextView
+            android:id="@+id/textUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Email:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Doctor Email -->
+        <TextView
+            android:id="@+id/textDoctorEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Email:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Consultation Mode -->
+        <TextView
+            android:id="@+id/textMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mode:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- GPay ID -->
+        <EditText
+            android:id="@+id/editGpayId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter GPay ID"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Consultation Date -->
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Consultation Date"
+            android:focusable="false"
+            android:inputType="none"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Time"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none" />
+
+
+
+        <!-- Prescription Note (Only Prescription Mode) -->
+        <EditText
+            android:id="@+id/editPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Enter Prescription"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:visibility="gone" />
+
+        <!-- Google Meet Link (Online Mode) -->
+        <EditText
+            android:id="@+id/editMeetLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paste Google Meet Link"
+            android:inputType="textUri"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:visibility="gone" />
+
+        <!-- Clinic Location (In-person Mode) -->
+        <TextView
+            android:id="@+id/textLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetching location..."
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:visibility="gone"
+            android:textColor="#000000"
+            android:textStyle="italic" />
+
+
+        <!-- Open Google Meet Button -->
+        <Button
+            android:id="@+id/btnOpenMeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Google Meet"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="#FFFFFF"
+            android:padding="14dp" />
+
+    </LinearLayout>
+</ScrollView>
